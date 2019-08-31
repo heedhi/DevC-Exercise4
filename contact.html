@@ -4,16 +4,16 @@
 <head>
     <title>Wisata Kebumen - By Hedi Harsono</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/bulma.min.css">
-    <link rel="stylesheet" href="css/bulma.css">
-    <link rel="stylesheet" href="css/bulma.css.map">
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="bulma.css.map">
 </head>
 
 <body>
     <nav class="navbar is-transparent">
         <div class="navbar-brand">
             <a class="navbar-item" href="#">
-                <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+                <img src="wisata-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -31,23 +31,32 @@
             </div>
         </div>
     </nav>
-
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Hubungi kami
+                </h1>
+                <h2 class="subtitle">
+                    Kami penyedia jasa layanan perjalanan wisata
+                </h2>
+            </div>
+        </div>
+    </section>
+    <br/>
     <div class="container">
-        <form "https://formspree.io/heedhi@gmail.com" method="POST">
-            <h1>Contact Us</h1>
+        <form action="https://formspree.io/heedhi@gmail.com" method="POST">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="first">First Name</label>
-                        <input type="text" class="form-control" placeholder="" id="first">
+                        <input type="text" class="form-control" placeholder="Nama Depan" id="first">
                     </div>
                 </div>
                 <!--  col-md-6   -->
 
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="last">Last Name</label>
-                        <input type="text" class="form-control" placeholder="" id="last">
+                        <input type="text" class="form-control" placeholder="Nama Belakang" id="last">
                     </div>
                 </div>
                 <!--  col-md-6   -->
@@ -57,8 +66,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="company">Company</label>
-                        <input type="text" class="form-control" placeholder="" id="company">
+                        <input type="text" class="form-control" placeholder="Perusahaan" id="company">
                     </div>
 
 
@@ -68,8 +76,7 @@
                 <div class="col-md-6">
 
                     <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" class="form-control" id="phone" placeholder="phone">
+                        <input type="tel" class="form-control" id="phone" placeholder="Handphone">
                     </div>
                 </div>
                 <!--  col-md-6   -->
@@ -81,16 +88,14 @@
                 <div class="col-md-6">
 
                     <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="email">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
                 </div>
                 <!--  col-md-6   -->
 
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label for="url">Your Website <small>Please include http://</small></label>
-                        <input type="url" class="form-control" id="url" placeholder="url">
+                        <input type="url" class="form-control" id="url" placeholder="Website">
                     </div>
 
                 </div>
